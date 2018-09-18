@@ -8,4 +8,44 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="imageStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+         <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textview2" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="publicNotes" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">87dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginLeft">44dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">44dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="officeNotes" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">87dp</item>
+        <item name="android:layout_width">86dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="personalNotes" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">101dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
